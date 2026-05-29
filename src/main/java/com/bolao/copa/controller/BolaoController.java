@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/bolao")
-@CrossOrigin(origins = "*") // Muito importante: permite que o seu arquivo HTML local converse com a API (evita erro de CORS)
+@CrossOrigin(origins = "frabjous-begonia-4c6be0.netlify.app") // Muito importante: permite que o seu arquivo HTML local converse com a API (evita erro de CORS)
 public class BolaoController {
 
     @Autowired
